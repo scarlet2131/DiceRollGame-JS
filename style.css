@@ -1,0 +1,51 @@
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#gameTitle {
+  text-align: center;
+  font-size: 2em; /* Adjust the size as needed */
+  margin: 20px 0;
+}
+
+
+#gameContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+#diceContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.dice {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto 10px; 
+}
+
+button {
+  display: block;
+  margin: 20px auto; 
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
